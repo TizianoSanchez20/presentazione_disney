@@ -1,0 +1,32 @@
+name: Update Graphs
+
+on:
+  push:
+    paths:
+      - 'database_*.csv'
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v3
+        with:
+          python-version: '3.9'
+
+      - name: Install dependencies
+        run: pip install pandas matplotlib python-pptx
+
+      - name: Run script
+        run: python update_graphs.py
+
+      - name: Commit updated presentation
+        run: |
+          git config --global user.name 'github-actions'
+          git config --global user.email 'github-actions@github.com'
+          git add Visualizzazione Scientifica 1_updated.pptx
+          git commit -m "Aggiornata la presentazione con nuovi grafici"
+          git push
