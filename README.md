@@ -1,19 +1,19 @@
 # data-visualization-project
 
 ## 📄 Descrizione
-Questo progetto ha lo scopo di analizzare e visualizzare dati relativi alla compagnia Disney soffermandosi soprattuto sull'**fatturato, parchi(negli anni), competitors e la diversià**. Utilizziamo strumenti di analisi dei dati e di visualizzazione per comprendere i trend principali e creare grafici.
+Questo progetto ha lo scopo di analizzare e visualizzare dati relativi alla compagnia Disney soffermandosi soprattuto sull **fatturato, parchi, competitors e la diversità**. Utilizziamo strumenti di analisi dei dati e di visualizzazione per comprendere i trend principali e creare grafici.
 
 ---
 
 ## 📊 Dataset
 Fare riferimento alla cartella: `Dataset`  
-I dati sono stati scaricati dai seguenti siti:
+I dati sono stati presi e in certi casi scaricati dai seguenti siti:
 
-- [Eurostat](https://ec.europa.eu/eurostat)
-- [European Environment Agency](https://www.eea.europa.eu/)
-- [Global Health Data Exchange](http://ghdx.healthdata.org/)
-- [European data](https://data.europa.eu/)
-- [Kaggle](https://www.kaggle.com/)
+- [Macrotrends](https://www.macrotrends.net/)
+- [The Numbers](https://www.the-numbers.com/)
+- [MarketScreener](https://it.marketscreener.com/)
+- [Analisi corporate](https://www.analisicorporate.net/walt-disney-risultati/)
+- [Rotten Tomatoes](https://www.rottentomatoes.com/)
 
 ---
 
@@ -36,7 +36,7 @@ Ambiente di sviluppo interattivo.
 
 ---
 
-## 👥 Autrici
+## 👥 Autori
 - Tiziano Sanchez 04735A
 - Dalila Granelli 02564A
 
