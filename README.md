@@ -24,7 +24,6 @@ Queste sono le principali librerie utilizzate per il progetto:
 - `pandas` : per la gestione e la pulizia dei dati.
 - `matplotlib` e `seaborn` : per la visualizzazione dei dati.
 - `numpy` : per le operazioni matematiche sui dati.
-- `scipy` : per le analisi statistiche.
 
 ### Jupyter Notebook:
 Ambiente di sviluppo interattivo.
